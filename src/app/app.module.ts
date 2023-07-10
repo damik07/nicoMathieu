@@ -3,7 +3,9 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AppComponent } from './app/app.component';
+import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   imports: [
@@ -12,7 +14,7 @@ import { AppComponent } from './app/app.component';
     ReactiveFormsModule,
     BrowserModule,
     BrowserAnimationsModule,
-    
+    HttpClientModule
   ],
   declarations: [AppComponent, ],
   bootstrap: [AppComponent]
