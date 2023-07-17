@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
+import { EncabezadoComponent } from './encabezado/encabezado.component';
 
 
 @NgModule({
@@ -16,7 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     HttpClientModule
   ],
-  declarations: [AppComponent, ],
+  declarations: [AppComponent, EncabezadoComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
