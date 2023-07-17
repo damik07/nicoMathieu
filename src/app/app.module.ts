@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
+import { EquipoComponent } from './equipo/equipo.component';
 
 
 @NgModule({
@@ -17,7 +18,7 @@ import { EncabezadoComponent } from './encabezado/encabezado.component';
     BrowserAnimationsModule,
     HttpClientModule
   ],
-  declarations: [AppComponent, EncabezadoComponent],
+  declarations: [AppComponent, EncabezadoComponent, EquipoComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
